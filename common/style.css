@@ -36,7 +36,7 @@ header{
     position: relative;
 }
 
-header a::after{
+header .ab a::after{
 
     content: '';
     position: absolute;
@@ -45,10 +45,10 @@ header a::after{
     background-color: red;
     bottom: -6px;
     left: 0;
-    transition: .6s;
+    transition: .4s;
 }
-header a:hover::after{
-    width: 60%;
+header .ab a:hover::after{
+    width: 70%;
 } 
 .ab i{
     color: #fff;
@@ -92,7 +92,7 @@ header a:hover::after{
     position: relative;
 }
 
-.frist a::after{
+.frist  a::after{
     z-index: -2;
     content: '';
     position: absolute;
@@ -126,7 +126,7 @@ header a:hover::after{
     width: 100%;
     height: 400px;
     filter: grayscale(100);  
-    transition: 4sn;
+    transition: .6s;
     background-position: center;
     background-size:cover;
     vertical-align: bottom;  
@@ -140,10 +140,10 @@ header a:hover::after{
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    transition: .2s;
+    transition: .3s;
 }
 
-.box:hover {
+.box:hover img{
     transform: scale(1.1);
     filter: grayscale(0);  
 }
